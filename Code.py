@@ -42,7 +42,7 @@ def resize_image(number):
 
 def list_file():
     global text_list
-    file = open("Assignment\languages\english.txt")
+    file = open("languages\english.txt")
 
     text_list = []
 
@@ -64,7 +64,7 @@ def start():
     quiz_display = False
     learning_display = False
     
-    image = Image.open('Assignment\images\jackground1.png')
+    image = Image.open('images\image1.png')
     copy_of_image = image.copy()
     photo = ImageTk.PhotoImage(image)
     label = ttk.Label(root, image = photo)
